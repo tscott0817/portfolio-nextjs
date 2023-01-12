@@ -1,11 +1,9 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Pacman Clone',
+    description: `A version of the classic Pacman game made with python and the Pygame framework`,
+    imgSrc: '/static/images/pacman.png',
+    href: 'https://github.com/tscott0817/Pacman-Pygame',
   },
   {
     title: 'The Time Machine',
