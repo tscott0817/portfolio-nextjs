@@ -1,6 +1,12 @@
 const projectsData = [
   {
-    title: 'Pacman Clone',
+    title: 'Instrument Translator',
+    description: `Convert chords and scales easily for cross-instrument translation`,
+    imgSrc: '/static/images/guitar-app.png',
+    href: 'https://github.com/tscott0817/guitar-app',
+  },
+  {
+    title: 'Pacman',
     description: `A version of the classic Pacman game made with Python and the Pygame framework`,
     imgSrc: '/static/images/pacman.png',
     href: 'https://github.com/tscott0817/Pacman-Pygame',
