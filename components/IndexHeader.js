@@ -36,13 +36,12 @@ const Introduction = () => {
         <div className="flex-2 flex basis-1/2 justify-center invert">
           <Image
             alt="Quaternion"
-            src="/../public/static/images/quaternion.png"
+            src="/../public/quaternion.png"
             // Center the object
             objectFit="contain"
             // src="https://drive.google.com/uc?export=view&id=1ZTlUvHiImi6sJ8Ydg-GVoZ3Taarjhk_A"
             // src="https://drive.google.com/uc?export=view&id=1dIniTvSGw0FtnlHhFM6WQlzCOfTzwmvk"
             className="scale-90 overflow-hidden duration-1000 ease-in hover:rotate-180"
-            // className="overflow-hidden rounded-3xl object-center duration-500 ease-in-out hover:motion-safe:animate-spin"
             width="500"
             height="0"
             layout="intrinsic"
