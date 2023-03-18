@@ -1,9 +1,17 @@
 const projectsData = [
   {
-    title: 'Instrument Translator',
-    description: `Convert chords and scales easily for cross-instrument translation`,
-    imgSrc: '/static/images/guitar-app.png',
+    title: 'Musical Instrument Translator',
+    description: `Convert musical chords and scales easily for cross-instrument translation. Written in C++
+                  with a custom GUI made in the openGL library Raylib.`,
+    imgSrc: '/static/images/guitar-app2.png',
     href: 'https://github.com/tscott0817/guitar-app',
+  },
+  {
+    title: 'Patient Management System',
+    description: `Manage patients and their medical records with a custom built PostgreSQL solution in 
+                  the Django framework for Python.`,
+    imgSrc: '/static/images/postgres.png',
+    href: 'https://github.com/tscott0817/patient-manager',
   },
   {
     title: 'Pacman',
@@ -13,8 +21,7 @@ const projectsData = [
   },
   {
     title: 'Basketball Free Throw',
-    description: `A timer based game built entirely in openGL with C++. No frameworks except 
-    freeGLUT for window managing and key inputs.`,
+    description: `A timer based game built with OpenGL and C++.`,
     imgSrc: '/static/images/freethrow.png',
     href: 'https://github.com/tscott0817/Basketball-Free-Throw',
   },

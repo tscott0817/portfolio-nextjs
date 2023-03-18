@@ -16,6 +16,9 @@ const LayoutWrapper = ({ children }) => {
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
+                {/*<div className="mr-3 invert motion-safe:animate-spin">*/}
+                {/*  <Logo />*/}
+                {/*</div>*/}
                 <div className="mr-3 invert">
                   <Logo />
                 </div>
