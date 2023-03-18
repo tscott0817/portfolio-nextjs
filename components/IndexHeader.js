@@ -20,7 +20,9 @@ const Introduction = () => {
               {/*</span>*/}
 
               {/* Make a div to wrap each span and make clickable links */}
-              <span className="bg-clip-text font-sans text-orange-300 text-transparent">Apps</span>
+              <span className="bg-clip-text font-sans text-orange-300 text-transparent">
+                BLApps
+              </span>
               <br></br>
               <span className="bg-clip-text font-sans text-rose-300 text-transparent">Games</span>
               <br></br>
