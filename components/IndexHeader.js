@@ -35,7 +35,7 @@ const Introduction = () => {
         </div>
         <div className="flex-2 flex basis-1/2 justify-center invert">
           <Image
-            alt="Animation"
+            alt="Quaternion"
             src="/../public/static/images/quaternionHD2.png"
             // Center the object
             objectFit="contain"
