@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import quaternion from '../public/static/images/quaternion.png'
 
 const Introduction = () => {
   return (
@@ -7,19 +8,6 @@ const Introduction = () => {
         <div className="flex-1 basis-1/2">
           <div className="flex-1">
             <h1 className="bg-clip-text py-4 text-center text-5xl font-extrabold duration-500 ease-in hover:scale-110 md:py-12">
-              {/*<span className="bg-gradient-to-r from-blue-600 via-rose-300 to-orange-300 bg-clip-text text-transparent">*/}
-              {/*  Apps*/}
-              {/*</span>*/}
-              {/*<br></br>*/}
-              {/*<span className="bg-gradient-to-r from-blue-600 via-rose-300 to-orange-300 bg-clip-text text-transparent">*/}
-              {/*  Games*/}
-              {/*</span>*/}
-              {/*<br></br>*/}
-              {/*<span className="bg-gradient-to-r from-blue-600 via-rose-300 to-orange-300 bg-clip-text text-transparent">*/}
-              {/*  Graphics*/}
-              {/*</span>*/}
-
-              {/* Make a div to wrap each span and make clickable links */}
               <span className="bg-clip-text font-sans text-orange-300 text-transparent">Apps</span>
               <br></br>
               <span className="bg-clip-text font-sans text-rose-300 text-transparent">Games</span>
@@ -36,7 +24,8 @@ const Introduction = () => {
         <div className="flex-2 flex basis-1/2 justify-center invert">
           <Image
             alt="Quaternion"
-            src="/../public/quaternion.png"
+            // src="/../public/static/images/quaternion.png"
+            src={quaternion}
             // Center the object
             objectFit="contain"
             // src="https://drive.google.com/uc?export=view&id=1ZTlUvHiImi6sJ8Ydg-GVoZ3Taarjhk_A"
