@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import quaternion from '../public/static/images/quaternion.png'
+import quaternion from '../public/static/images/quaternion.png' // Have to declare up here to get img to show
 
 const Introduction = () => {
   return (
@@ -8,6 +8,19 @@ const Introduction = () => {
         <div className="flex-1 basis-1/2">
           <div className="flex-1">
             <h1 className="bg-clip-text py-4 text-center text-5xl font-extrabold duration-500 ease-in hover:scale-110 md:py-12">
+              {/*<span className="bg-gradient-to-r from-blue-600 via-rose-300 to-orange-300 bg-clip-text text-transparent">*/}
+              {/*  Apps*/}
+              {/*</span>*/}
+              {/*<br></br>*/}
+              {/*<span className="bg-gradient-to-r from-blue-600 via-rose-300 to-orange-300 bg-clip-text text-transparent">*/}
+              {/*  Games*/}
+              {/*</span>*/}
+              {/*<br></br>*/}
+              {/*<span className="bg-gradient-to-r from-blue-600 via-rose-300 to-orange-300 bg-clip-text text-transparent">*/}
+              {/*  Graphics*/}
+              {/*</span>*/}
+
+              {/* Make a div to wrap each span and make clickable links */}
               <span className="bg-clip-text font-sans text-orange-300 text-transparent">Apps</span>
               <br></br>
               <span className="bg-clip-text font-sans text-rose-300 text-transparent">Games</span>
