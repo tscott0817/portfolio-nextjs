@@ -3,7 +3,7 @@ name: Tyler Scott
 avatar: /static/images/face-photo.jpg
 occupation: Student at University of Vermont
 
-[//]:# (Temp))
+[//]:# (Temp)
 email: tylerscott.home@gmail.com
 linkedin: https://www.linkedin.com/in/tyler-scott-7a99a6258/
 github: https://github.com/tscott0817
