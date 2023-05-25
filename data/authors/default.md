@@ -14,4 +14,4 @@ My preferred languages are C++, Python and C#. I also have experience with Java,
 React, Unity3D, RayLib.
 
 I currently am looking into many fields of software development and am happy to hear about any opportunities that are out there. Feel
-free to reach out to me at any of my provided contact links. I look forward to continuing this journey in a new chapter of my life.
+free to reach out to me at any of my provided contact links. I look forward to continuing this journey in a new chapter of my life!
