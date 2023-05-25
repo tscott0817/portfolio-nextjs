@@ -1,7 +1,7 @@
 const projectsData = [
   {
     title: 'Investment Assistant',
-    description: `Use several different machine learning models to predict the future price of a stock.`,
+    description: `Use several machine learning models to analyze and predict changes in stock prices over times.`,
     imgSrc: '/static/images/investment_img.png',
     href: 'https://github.com/tscott0817/investment-assistant',
   },
