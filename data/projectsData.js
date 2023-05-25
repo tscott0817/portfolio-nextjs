@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Investment Assistant',
+    description: `Use several different machine learning models to predict the future price of a stock.`,
+    imgSrc: '/static/images/investment_img.png',
+    href: 'https://github.com/tscott0817/investment-assistant',
+  },
+  {
     title: 'Musical Instrument Translator',
     description: `Convert musical chords and scales easily for cross-instrument translation. Written in C++
                   with a custom GUI made in the openGL library Raylib.`,
