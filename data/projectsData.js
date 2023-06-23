@@ -9,7 +9,7 @@ const projectsData = [
     title: 'Musical Instrument Translator',
     description: `Convert musical chords and scales easily for cross-instrument translation. Written in C++
                   with a custom GUI made in the openGL library Raylib.`,
-    imgSrc: '/static/images/guitar-app2.png',
+    imgSrc: '/static/images/note-bridge-img.png',
     href: 'https://github.com/tscott0817/guitar-app',
   },
   {
