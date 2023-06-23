@@ -6,8 +6,8 @@ const projectsData = [
     href: 'https://github.com/tscott0817/investment-assistant',
   },
   {
-    title: 'Musical Instrument Translator',
-    description: `Convert musical chords and scales easily for cross-instrument translation. Written in C++
+    title: 'Harmony Helper',
+    description: `Use this software to analyze musical scales and chords between instruments. Written in C++
                   with a custom GUI made in the openGL library Raylib.`,
     imgSrc: '/static/images/note-bridge-img.png',
     href: 'https://github.com/tscott0817/guitar-app',
