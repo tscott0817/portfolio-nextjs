@@ -19,13 +19,6 @@ const projectsData = [
     href: 'https://github.com/tscott0817/investment-assistant',
   },
   {
-    title: 'Patient Management System',
-    description: `Manage patients and their medical records with a custom built PostgreSQL solution in 
-                  the Django framework for Python.`,
-    imgSrc: '/static/images/postgres.png',
-    href: 'https://github.com/tscott0817/patient-manager',
-  },
-  {
     title: 'Pacman',
     description: `A version of the classic Pacman game made with Python and the Pygame framework`,
     imgSrc: '/static/images/pacman.png',
