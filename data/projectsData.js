@@ -14,7 +14,7 @@ const projectsData = [
   },
   {
     title: 'Investment Assistant',
-    description: `Use several machine learning models to analyze and predict changes in stock prices over times.`,
+    description: `Use several machine learning models to analyze a companies stock prices over time.`,
     imgSrc: '/static/images/investment_img.png',
     href: 'https://github.com/tscott0817/investment-assistant',
   },
@@ -34,7 +34,7 @@ const projectsData = [
     title: 'Spotify Top Artists Search With Custom Query Language',
     description: `Console based custom query language implementation with SQLite backend. Used to search information about 
     the top 40 artists on the spotify charts.`,
-    imgSrc: '/static/images/sql-img.jpg',
+    imgSrc: '/static/images/sql-img.png',
     href: 'https://github.com/tscott0817/Spotify-Top-Artists-Search',
     // href: '/blog/the-time-machine',
   },
