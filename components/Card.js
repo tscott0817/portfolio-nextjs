@@ -1,7 +1,7 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, href }) => (
+const Card = ({ title, description, imgSrc, href, secondHref }) => (
   <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
     <div
       className={`${
@@ -28,17 +28,18 @@ const Card = ({ title, description, imgSrc, href }) => (
             height={306}
           />
         ))}
-      <div className="p-6">
-        <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
-          {href ? (
-            <Link href={href} aria-label={`Link to ${title}`}>
-              {title}
+      <div className="flex items-center justify-between">
+        <div>
+          {secondHref && (
+            <Link
+              href={secondHref}
+              className="text-secondary-500 hover:text-secondary-600 dark:hover:text-secondary-400 text-base font-medium leading-6"
+              aria-label={`Second Link to ${title}`}
+            >
+              Go to Second Link &rarr;
             </Link>
-          ) : (
-            title
           )}
-        </h2>
-        <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
+        </div>
         {href && (
           <Link
             href={href}
