@@ -1,9 +1,9 @@
 const projectsData = [
   {
-    title: 'Patient Management System',
-    description: `CRUD application for managing patients and their medical records. Hosted on Heroku with a PostgreSQL backend (ElephantSQL).`,
-    imgSrc: '/static/images/p-manager.png',
-    href: 'https://github.com/tscott0817/patient-manager-custom-backend',
+    title: 'Flavor Pear',
+    description: `Compare how well ingredients may go together based on their shared flavor molecules. Created with Javascript and React.`,
+    imgSrc: '/static/images/flavor_site.png',
+    href: 'https://github.com/tscott0817/flavor-pairing.git',
   },
   {
     title: 'Harmony Helper',
