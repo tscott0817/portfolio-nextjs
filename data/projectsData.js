@@ -25,6 +25,12 @@ const projectsData = [
     href: 'https://github.com/tscott0817/Pacman-Pygame',
   },
   {
+    title: 'Patient Management System',
+    description: `CRUD application for managing patients and their medical records. Hosted on Heroku with a PostgreSQL backend (ElephantSQL).`,
+    imgSrc: '/static/images/p-manager.png',
+    href: 'https://github.com/tscott0817/patient-manager-custom-backend',
+  },
+  {
     title: 'Basketball Free Throw',
     description: `A timer based game built with OpenGL and C++.`,
     imgSrc: '/static/images/freethrow.png',
