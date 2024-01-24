@@ -1,7 +1,20 @@
 const projectsData = [
   {
     title: 'Flavor Pear',
-    description: `Compare how well ingredients may go together based on their shared flavor molecules. Created with Javascript and React.`,
+    description: (
+      <>
+        Compare how well ingredients may go together based on their shared flavor molecules. Created
+        with Javascript and React. Idea inspired by{' '}
+        <a
+          href="https://youtu.be/GZWD1EEiE4U?si=UtXQTlmcLgHXKn_s"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Good Mythical Morning Podcast
+        </a>
+        .
+      </>
+    ),
     imgSrc: '/static/images/flavor_site.png',
     href: 'https://github.com/tscott0817/flavor-pairing.git',
     // secondHref: 'https://food-pairing-react-no-backend.vercel.app',

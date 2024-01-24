@@ -34,24 +34,24 @@ const Introduction = () => {
             </p>
           </div>
         </div>
-        <div className="flex-2 flex basis-1/2 justify-center invert">
-          <Image
-            alt="Quaternion"
-            // src="/../public/static/images/quaternion.png"
-            src={quaternion}
-            // Center the object
-            objectFit="contain"
-            // src="https://drive.google.com/uc?export=view&id=1ZTlUvHiImi6sJ8Ydg-GVoZ3Taarjhk_A"
-            // src="https://drive.google.com/uc?export=view&id=1dIniTvSGw0FtnlHhFM6WQlzCOfTzwmvk"
-            className="scale-90 overflow-hidden duration-1000 ease-in hover:rotate-180"
-            width="500"
-            height="0"
-            layout="intrinsic"
-            //sizes="(max-width: 768px) 100vw,
-            //       (max-width: 1200px) 50vw,
-            //       33vw"
-          />
-        </div>
+        {/*<div className="flex-2 flex basis-1/2 justify-center invert">*/}
+        {/*  <Image*/}
+        {/*    alt="Quaternion"*/}
+        {/*    // src="/../public/static/images/quaternion.png"*/}
+        {/*    src={quaternion}*/}
+        {/*    // Center the object*/}
+        {/*    objectFit="contain"*/}
+        {/*    // src="https://drive.google.com/uc?export=view&id=1ZTlUvHiImi6sJ8Ydg-GVoZ3Taarjhk_A"*/}
+        {/*    // src="https://drive.google.com/uc?export=view&id=1dIniTvSGw0FtnlHhFM6WQlzCOfTzwmvk"*/}
+        {/*    className="scale-90 overflow-hidden duration-1000 ease-in hover:rotate-180"*/}
+        {/*    width="500"*/}
+        {/*    height="0"*/}
+        {/*    layout="intrinsic"*/}
+        {/*    //sizes="(max-width: 768px) 100vw,*/}
+        {/*    //       (max-width: 1200px) 50vw,*/}
+        {/*    //       33vw"*/}
+        {/*  />*/}
+        {/*</div>*/}
       </div>
     </>
   )
