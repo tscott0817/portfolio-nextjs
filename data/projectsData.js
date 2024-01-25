@@ -6,7 +6,7 @@ const projectsData = [
         Compare how well ingredients may go together based on their shared flavor molecules. Created
         with Javascript and React. Idea inspired by{' '}
         <a
-          href="https://youtu.be/GZWD1EEiE4U?si=UtXQTlmcLgHXKn_s"
+          href="https://www.youtube.com/watch?v=eRTDGLTuLj8&t=255s"
           target="_blank"
           rel="noopener noreferrer"
         >
