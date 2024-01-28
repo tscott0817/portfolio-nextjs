@@ -8,6 +8,8 @@ import NewsletterForm from '@/components/NewsletterForm'
 import projectsData from '@/data/projectsData'
 import Card from '@/components/Card'
 import IndexHeader from '@/components/IndexHeader'
+import { useTheme } from 'next-themes'
+import { useEffect } from 'react'
 
 const MAX_DISPLAY = 5
 
@@ -18,6 +20,12 @@ export async function getStaticProps() {
 }
 
 export default function Home({ posts }) {
+  // const { theme, setTheme, resolvedTheme } = useTheme()
+  //
+  // useEffect(() => {
+  //   // Set the theme to 'dark' as soon as the component mounts
+  //   setTheme('dark')
+  // }, []) // Empty dependency array ensures this effect runs only once when the component mounts
   return (
     <>
       <IndexHeader />

@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Personal Portfolio',
+  title: 'Tyler Scott Software',
   author: 'Tyler Scott',
   headerTitle: 'Tyler Scott',
   description: 'Some other stuff',
