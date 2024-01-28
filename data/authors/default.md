@@ -9,8 +9,8 @@ github: https://github.com/tscott0817
 ---
 
 A recent Bachelor of Science in Computer Science graduate from the University of Vermont moving into the next stage of my life.
-I love programming in any context, but a few of my favorite fields are desktop applications, machine learning, and graphics / games.
-My preferred languages are C++, Python and C#. I also have experience with Java, HTML, CSS, JavaScript / Typescript, SQL (PostgreSQL, SQLite),
+I love programming in any context, but a few of my favorite fields are web development, desktop applications, and graphics / games.
+My preferred languages are JavaScript, C++ and C#. I also have experience with Java, HTML, CSS, SQL (PostgreSQL, SQLite),
 React, Unity3D, RayLib.
 
 I currently am looking into many fields of software development and am happy to hear about any opportunities that are out there. Feel
