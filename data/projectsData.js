@@ -27,6 +27,12 @@ const projectsData = [
     href: 'https://github.com/tscott0817/guitar-app',
   },
   {
+    title: 'Immersive Sim Systems and Controller',
+    description: `My FPS controller and interactive systems for an Immersive Sim style video game.`,
+    imgSrc: '/static/images/im-sim.png',
+    href: 'https://github.com/tscott0817/ImSim-FPS-Controller',
+  },
+  {
     title: 'Investment Assistant',
     description: `Use several machine learning models to analyze a companies stock prices over time.`,
     imgSrc: '/static/images/investment_img.png',

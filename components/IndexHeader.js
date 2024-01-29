@@ -30,7 +30,7 @@ const Introduction = () => {
               </span>
               <br></br>
               <span className="bg-gradient-to-r from-blue-600 via-rose-300 to-orange-300 bg-clip-text text-transparent">
-                Graphics
+                Websites
               </span>
             </h1>
           </div>
