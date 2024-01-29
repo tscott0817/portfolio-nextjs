@@ -20,12 +20,12 @@ export async function getStaticProps() {
 }
 
 export default function Home({ posts }) {
-  // const { theme, setTheme, resolvedTheme } = useTheme()
-  //
-  // useEffect(() => {
-  //   // Set the theme to 'dark' as soon as the component mounts
-  //   setTheme('dark')
-  // }, []) // Empty dependency array ensures this effect runs only once when the component mounts
+  const { theme, setTheme, resolvedTheme } = useTheme()
+
+  useEffect(() => {
+    // Set the theme to 'dark' as soon as the component mounts
+    setTheme('dark')
+  }, []) // Empty dependency array ensures this effect runs only once when the component mounts
   return (
     <>
       <IndexHeader />
