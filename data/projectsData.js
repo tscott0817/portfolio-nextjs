@@ -20,12 +20,19 @@ const projectsData = [
     // secondHref: 'https://food-pairing-react-no-backend.vercel.app',
   },
   {
-    title: 'Harmony Helper',
-    description: `Use this software to analyze musical scales and chords between instruments. Written in C++
-                  with a custom GUI made in the openGL library Raylib.`,
-    imgSrc: '/static/images/note-bridge-img.png',
-    href: 'https://github.com/tscott0817/guitar-app',
+    title: 'Tone Bridge',
+    description: `Use this software to analyze musical scales and chords between instruments. Written in Javascript
+                  with React.`,
+    imgSrc: '/static/images/tb.png',
+    href: 'https://github.com/tscott0817/tone-bridge',
   },
+  // {
+  //   title: 'Harmony Helper',
+  //   description: `Use this software to analyze musical scales and chords between instruments. Written in C++
+  //                 with a custom GUI made in the openGL library Raylib.`,
+  //   imgSrc: '/static/images/note-bridge-img.png',
+  //   href: 'https://github.com/tscott0817/guitar-app',
+  // },
   {
     title: 'Immersive Sim Systems and Controller',
     description: `My FPS controller and interactive systems for an Immersive Sim style video game.`,
